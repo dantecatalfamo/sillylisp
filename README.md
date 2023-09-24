@@ -7,6 +7,8 @@ Designed to be easy to grok and fast.
 It doesn't have a garbage collector but instead frees everything when the environment is destroyed.
 Uses lists instead of cons cells internally.
 
+Supported lambdas, special forms, recursion, debugging, tracing, defining functions and variables, etc.
+
 ## Building
 ```zig
 zig build
